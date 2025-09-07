@@ -1,0 +1,8 @@
+sudo add-apt-repository ppa:rock-core/qt4
+sudo apt install -y qt4-default
+mkdir netemul
+cd netemul/
+#(from pkgs.org/download/netemul)
+wget http://ftp.br.debian.org/debian/pool/main/n/netemul/netemul_1.0.0-2+b2_amd64.deb
+sudo dpkg -i netemul_1.0.0-2+b2_amd64.deb
+susud
